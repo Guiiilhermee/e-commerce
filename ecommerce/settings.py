@@ -25,14 +25,11 @@ SECRET_KEY = 'django-insecure-ds402edsz*fw#qd2jzc-v@$3=kjyx)8o2^ncm=q1du1%4b7c7t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-guiiilhermee-ecommerce-1mn3rjfkxtv.ws-eu110.gitpod.io',
-                 'localhost',
-                 'http://localhost:8000/',
-                ]
+ALLOWED_HOSTS = ['8000-guiiilhermee-ecommerce-1mn3rjfkxtv.ws-eu110.gitpod.io']
 
 
 # Application definition
-
+    
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
